@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import Header from './HeaderComponent';
 import Sliding from './SlidingComponent';
 import Footer from './FooterComponent';
+import SideBarLink from './SideBarLink';
 
 
  class Main extends Component {
@@ -10,6 +11,7 @@ import Footer from './FooterComponent';
             <div>
                 <Header/>
                 <Sliding/>
+                {/* <SideBarLink/> */}
                 <Footer/>
             </div>
         );
